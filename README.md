@@ -1,4 +1,4 @@
-# FLASK SERVER
+# Simple Flask Server
 
 A simple flask server with two routes. 
 
@@ -9,13 +9,15 @@ A simple flask server with two routes.
 pip install -r requirements.txt
 ```
 
-### Run Server
+### Run Development Server
+In Windows
 ```
 set FLASK_APP=flaskblog.py && FLASK_DEBUG=1 && flask run
 ```
-or
-```
-python flaskblog.py
+In Ubuntu/Linux
+
+```buildoutcfg
+FLASK_APP=flaskblog.py FLASK_DEBUG=1 flask run
 ```
 
 ### Run Unit Tests
